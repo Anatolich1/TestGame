@@ -11,10 +11,10 @@ public class Player1 : MonoBehaviour
 
     [SerializeField] Vector2 deathKick = new Vector2(25f, 25f); 
 
-    Rigidbody2D myRigitBody;
-    Animator myAnimator;
-    CapsuleCollider2D myBodyCollider;
-    BoxCollider2D myFeetCollider;
+    private Rigidbody2D myRigitBody;
+    private Animator myAnimator;
+    private CapsuleCollider2D myBodyCollider; //зашел сюда и осознал боль своего кода...
+    private BoxCollider2D myFeetCollider;
 
     bool isAlive = true;
 
